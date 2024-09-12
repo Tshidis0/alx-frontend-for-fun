@@ -1,0 +1,12 @@
+/*styling*/
+@mixin set-Margins($left, $right) {
+    margin-left: #{$left};
+    margin-right: #{$right};
+}
+
+body {
+    @include set-Margins(10px, 10px);
+}
+div {
+    @include set-Margins(15px, 15px);
+}
